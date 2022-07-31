@@ -1,1 +1,40 @@
-/*# sourceMappingURL=index.css.map */
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 966px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__item {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
