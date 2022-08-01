@@ -1,0 +1,7 @@
+.header{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    &__item{
+        @include font("Roboto", 400, 16px, #230B59);
+    }
+}
