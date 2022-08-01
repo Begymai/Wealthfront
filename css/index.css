@@ -32,7 +32,6 @@ a {
 }
 .header__content {
   display: flex;
-  justify-content: space-between;
 }
 .header__link {
   font-family: "Roboto";
