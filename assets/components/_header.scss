@@ -1,0 +1,17 @@
+.header{
+    padding-top: 47px;
+    padding-bottom: 46px;
+    &__content{
+    display: flex;
+    }
+    &__logo{
+        padding-right: 110px;
+    }
+    &__name{
+        @include font("Roboto", 400, 18, #211F54)
+    }
+    &__menu{
+        display: flex;
+        
+    }
+}
