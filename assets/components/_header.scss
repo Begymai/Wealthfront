@@ -4,4 +4,8 @@
     &__item{
         @include font("Roboto", 400, 16px, #230B59);
     }
+
+    &__button{
+        @include font("Roboto", 400, 16px, #230B59);
+    }
 }
