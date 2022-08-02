@@ -1,11 +1,16 @@
 .header{
-    padding-top: 35px;
-    padding-bottom: 35px;
-    &__item{
-        @include font("Roboto", 400, 16px, #230B59);
+    padding-top: 34px;
+    padding-bottom: 34px;
+    &__content{
+        display: flex;        
     }
-
-    &__button{
-        @include font("Roboto", 400, 16px, #230B59);
+    &__list{
+        @include font("Roboto", 400, 50px, #230B59);
+    }
+    &___itom{
+        display: flex;
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 15px, #230B59);
     }
 }

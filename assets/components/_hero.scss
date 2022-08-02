@@ -1,0 +1,8 @@
+.hero{
+    &__content{
+        display: flex;
+    }
+    &__title{
+        @include font("roboto", 400, 50, #230B59);
+    }
+}
