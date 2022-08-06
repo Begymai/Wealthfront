@@ -30,7 +30,7 @@
         margin-top: 58px;
     }
     &__button{
-        margin-bottom: 56px;
+        margin-top: 57px;
     }
 
     &__button--blue{
@@ -41,11 +41,9 @@
         padding: 26px 38px;
     }
     &__button--white{
-        @include font("Roboto", 400, 18, $black);
+        @include font("Roboto", 700, 18, #070000);
         text-align: center;
-        background: #FFFFFF;
-        border: 1px solid #111735;
-        box-shadow: 0px 4px 10px rgba(8, 8, 8, 0.04);
+        background: #aac3e0;
         border-radius: 14px;
         padding: 26px 38px;
     }

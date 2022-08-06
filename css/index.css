@@ -165,6 +165,9 @@ a {
   display: flex;
   margin-top: 58px;
 }
+.blog__button {
+  margin-top: 57px;
+}
 .blog__button--blue {
   font-family: "Roboto";
   font-weight: 700;
@@ -179,9 +182,48 @@ a {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
-  color: #b;
+  color: #070000;
   text-align: center;
-  background: #FFFFFF;
+  background: #aac3e0;
   border-radius: 14px;
   padding: 26px 38px;
+}
+
+.topic {
+  margin-top: 481px;
+}
+.topic__text {
+  text-align: center;
+}
+.topic__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  width: 608px;
+  margin: 0 auto;
+}
+.topic__suptitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  width: 702px;
+  margin: 0 auto;
+}
+.topic__index {
+  display: flex;
+}
+.topic__info {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #6E7191;
+  text-transform: uppercase;
+}
+.topic__number {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #211F54;
 }/*# sourceMappingURL=index.css.map */

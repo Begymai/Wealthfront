@@ -1,0 +1,27 @@
+.topic{
+    margin-top: 481px;
+    &__text{
+        text-align: center;
+    }
+    &__title{
+        @include font("Roboto", 700, 48, #211F54);
+        width: 608px;
+        margin: 0 auto;
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 21, #6E7191);
+        width: 702px;
+        margin: 0 auto;
+    }
+
+    &__index{
+        display: flex;
+    }
+    &__info{
+        @include font("Roboto", 400, 16, #6E7191);
+        text-transform: uppercase;
+    }
+    &__number{
+        @include font("Roboto", 700, 28,  #211F54);
+    }
+}
