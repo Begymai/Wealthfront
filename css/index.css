@@ -22,6 +22,7 @@ a {
 }
 
 .container {
+  max-width: 1268px;
   margin: 0 auto;
 }
 
@@ -32,26 +33,155 @@ a {
 .header__content {
   display: flex;
 }
-.header__logo {
-  padding-right: 110px;
-}
 .header__name {
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 18;
+  font-size: 18px;
   color: #211F54;
+}
+.header__menu {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #211F54;
+  margin-left: 22px;
 }
 .header__list {
   display: flex;
   align-items: center;
+  margin-left: 42px;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+.header__btn {
+  display: flex;
+  align-items: center;
+  margin-left: 334px;
+}
+.header__button {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 17px 24px 19px 24px;
 }
 
 .hero__content {
   display: flex;
 }
 .hero__title {
-  font-family: "roboto";
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 68px;
+  color: #211F54;
+  line-height: 74px;
+  margin-top: 227px;
+  margin-bottom: 22px;
+}
+.hero__description {
+  font-family: "Roboto";
   font-weight: 400;
-  font-size: 50;
-  color: #230B59;
+  font-size: 21px;
+  color: #6E7191;
+}
+.hero__suptitle {
+  display: flex;
+  margin-top: 33px;
+}
+.hero__button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.hero__info {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #6E7191;
+  text-transform: uppercase;
+}
+.hero__number {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #211F54;
+}
+.hero__form {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.blog {
+  margin-top: 239px;
+}
+.blog__content {
+  text-align: center;
+}
+.blog__title {
+  text-align: center;
+}
+.blog__info {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  margin-bottom: 21px;
+}
+.blog__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  width: 648px;
+  margin: 0 auto;
+}
+.blog__suptitle {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #211F54;
+  margin-top: 39px;
+}
+.blog__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  margin-top: 16px;
+  width: 412px;
+}
+.blog__post {
+  display: flex;
+  margin-top: 58px;
+}
+.blog__button--blue {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.blog__button--white {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #b;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 26px 38px;
 }/*# sourceMappingURL=index.css.map */

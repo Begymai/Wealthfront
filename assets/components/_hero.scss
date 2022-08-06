@@ -3,6 +3,36 @@
         display: flex;
     }
     &__title{
-        @include font("roboto", 400, 50, #230B59);
+        @include font("Roboto", 700, 68, #211F54);
+        line-height: 74px;
+        margin-top: 227px;
+        margin-bottom: 22px;
+    }
+    &__description{
+        @include font("Roboto", 400, 21, #6E7191);
+    }
+    &__suptitle{
+        display: flex;
+        margin-top: 33px;
+    }
+    &__button{
+        @include font("Roboto", 700, 18, #FFFFFF);
+        text-align: center;
+        background: #0075FF;
+        border-radius: 14px;
+        padding: 26px 38px;
+        
+    }
+    &__info{
+        @include font("Roboto", 400, 16, #6E7191);        
+        text-transform: uppercase;
+    }
+    &__number{
+        @include font("Roboto", 700, 28, #211F54);
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
     }
 }

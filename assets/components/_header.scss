@@ -3,21 +3,33 @@
     padding-bottom: 46px;
     &__content{
     display: flex;
-    }
-    &__logo{
-        padding-right: 110px;
-    }
+    }    
     &__name{
         @include font("Roboto", 400, 18, #211F54);
     }
     &__menu{
         @include font("Roboto", 400, 18, #211F54);
+        margin-left: 22px;
     }
     &__list{
         display: flex;
         align-items: center;
+        margin-left: 42px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        margin-left: 334px;
     }
     &__button{
-        display: flex;
+        @include font("Roboto", 400, 16, #FFFFFF);
+        text-align: center;
+        background: #0075FF;
+        border-radius: 14px;
+        padding: 17px 24px 19px 24px;
     }
 }
