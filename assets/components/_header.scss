@@ -8,6 +8,16 @@
         padding-right: 110px;
     }
     &__name{
-        @include font("Roboto", 400, 18, #211F54)
+        @include font("Roboto", 400, 18, #211F54);
+    }
+    &__menu{
+        @include font("Roboto", 400, 18, #211F54);
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__button{
+        display: flex;
     }
 }
