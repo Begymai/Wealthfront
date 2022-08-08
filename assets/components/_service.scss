@@ -1,5 +1,6 @@
 .service{
     margin-top: 240px;
+    margin-bottom: 240px;
     &__look{
         display: flex;
         justify-content: space-between;
@@ -11,7 +12,7 @@
     }
     &__btn{
         @include font("Roboto", 700, 18, #070000);
-        background: #aac3e0;
+        background-size: #aac3e0;
         border-radius: 14px;
         padding: 26px 38px;
     }

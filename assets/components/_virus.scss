@@ -1,7 +1,9 @@
 .virus{
+    margin-top: 240px;
     &__content{
-    background: #211F54;
-    border-radius: 24px;
+        background: #211F54;
+        background-size: 676px;
+        border-radius: 24px;
     }
     &__box{
         display: flex;
@@ -21,4 +23,34 @@
         @include font("Roboto", 400, 16, #ffff);
         padding-bottom: 38px;
     }
+    &__button{
+        @include font("Roboto", 700, 18, #FFFFFF);
+        text-align: center;
+        background: #0075FF;
+        border-radius: 14px;
+        padding: 26px 38px;
+        
+    }
+    &__call{
+        @include font("Roboto", 400, 16, #ffff);        
+        text-transform: uppercase;
+
+    }
+    &__number{
+        @include font("Roboto", 700, 28, #ffff);
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    &__second{
+        display: flex;
+        flex-direction: column;
+        margin-left: 72px;
+    }
+    &__suptitle{
+        display: flex;
+    }
+    
 }

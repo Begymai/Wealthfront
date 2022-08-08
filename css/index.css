@@ -252,10 +252,12 @@ a {
 
 .service {
   margin-top: 240px;
+  margin-bottom: 240px;
 }
 .service__look {
   display: flex;
   justify-content: space-between;
+  margin-top: 62px;
 }
 .service__title {
   font-family: "Roboto";
@@ -269,7 +271,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   color: #070000;
-  background: #aac3e0;
+  background-size: #aac3e0;
   border-radius: 14px;
   padding: 26px 38px;
 }
@@ -307,7 +309,11 @@ a {
 }
 
 .virus {
+  margin-top: 240px;
+}
+.virus__content {
   background: #211F54;
+  background-size: 676px;
   border-radius: 24px;
 }
 .virus__box {
@@ -320,6 +326,7 @@ a {
   font-size: 16px;
   color: white;
   text-transform: uppercase;
+  padding-bottom: 14px;
 }
 .virus__title {
   font-family: "Roboto";
@@ -327,10 +334,48 @@ a {
   font-size: 48px;
   color: white;
   width: 491px;
+  padding-bottom: 14px;
 }
 .virus__description {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   color: white;
+  padding-bottom: 38px;
+}
+.virus__button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.virus__call {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+}
+.virus__number {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+.virus__form {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.virus__second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 72px;
+}
+.virus__suptitle {
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
