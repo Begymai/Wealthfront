@@ -287,6 +287,7 @@ a {
   font-size: 21px;
   color: #6E7191;
   width: 312px;
+  padding: 13px 38px 24px 38px;
 }
 .service__info {
   background: #FFFFFF;
@@ -298,4 +299,38 @@ a {
 }
 .service__clean {
   display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.service__icon {
+  padding-top: 45px;
+}
+
+.virus {
+  background: #211F54;
+  border-radius: 24px;
+}
+.virus__box {
+  display: flex;
+  align-items: center;
+}
+.virus__sani {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+}
+.virus__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  width: 491px;
+}
+.virus__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
 }/*# sourceMappingURL=index.css.map */

@@ -3,6 +3,7 @@
     &__look{
         display: flex;
         justify-content: space-between;
+        margin-top: 62px;
     }
     &__title{
         @include font("Roboto", 700, 48, #211F54);
@@ -23,6 +24,7 @@
     &__description{
         @include font("Roboto", 400, 21, #6E7191);
         width: 312px;
+        padding: 13px 38px 24px 38px;
     }
     &__info{
         background: #FFFFFF;
@@ -33,6 +35,11 @@
         text-align: center;
     }
     &__clean{
-        display: flex;        
+        display: flex;
+        justify-content: space-between;
+        margin-right: 24px;
+    }
+    &__icon{
+        padding-top: 45px;
     }
 }
