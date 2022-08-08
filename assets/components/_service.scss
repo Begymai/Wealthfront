@@ -1,0 +1,31 @@
+.service{
+    margin-top: 240px;
+    &__look{
+        display: flex;
+    }
+    &__title{
+        @include font("Roboto", 700, 48, #211F54);
+        width: 471px;
+    }
+    &__btn{
+        @include font("Roboto", 700, 18, #070000);
+        background: #aac3e0;
+        border-radius: 14px;
+        padding: 26px 38px;
+    }
+
+    &__name{
+        @include font("Roboto", 700, 24, #211F54);
+        text-align: center;
+    }
+    &__description{
+        @include font("Roboto", 400, 21, #6E7191);
+    }
+    &__info{
+        background: #FFFFFF;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+        border-radius: 16px;
+        width: 344px;
+    }
+}

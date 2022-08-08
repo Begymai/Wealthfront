@@ -1,5 +1,5 @@
 .topic{
-    margin-top: 481px;
+    text-align: center;
     &__text{
         text-align: center;
     }
@@ -12,16 +12,38 @@
         @include font("Roboto", 400, 21, #6E7191);
         width: 702px;
         margin: 0 auto;
+        margin-top: 13px;
     }
 
-    &__index{
-        display: flex;
-    }
     &__info{
         @include font("Roboto", 400, 16, #6E7191);
         text-transform: uppercase;
+        margin-bottom: 4px;
     }
     &__number{
         @include font("Roboto", 700, 28,  #211F54);
+    }
+    &__boxes{
+        display: flex;
+        align-items: center;
+        margin-right: 131px;
+        margin-top: 48px;
+    }
+    &__index{
+        margin-left: 16px;
+    }
+    &__job{
+        display: flex;
+        justify-content: center;
+    }
+    &__video{
+        margin-top: 40px;
+    }
+    &__content{
+        border-top: 1px solid #DCDDEB;
+        border-bottom: 1px solid #DCDDEB;
+        margin-top: 240px;
+        padding-top: 240px;
+        padding-bottom: 240px;
     }
 }

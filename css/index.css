@@ -190,7 +190,7 @@ a {
 }
 
 .topic {
-  margin-top: 481px;
+  text-align: center;
 }
 .topic__text {
   text-align: center;
@@ -210,9 +210,7 @@ a {
   color: #6E7191;
   width: 702px;
   margin: 0 auto;
-}
-.topic__index {
-  display: flex;
+  margin-top: 13px;
 }
 .topic__info {
   font-family: "Roboto";
@@ -220,10 +218,55 @@ a {
   font-size: 16px;
   color: #6E7191;
   text-transform: uppercase;
+  margin-bottom: 4px;
 }
 .topic__number {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 28px;
   color: #211F54;
+}
+.topic__boxes {
+  display: flex;
+  align-items: center;
+  margin-right: 131px;
+  margin-top: 48px;
+}
+.topic__index {
+  margin-left: 16px;
+}
+.topic__job {
+  display: flex;
+  justify-content: center;
+}
+.topic__video {
+  margin-top: 40px;
+}
+.topic__content {
+  border-top: 1px solid #DCDDEB;
+  border-bottom: 1px solid #DCDDEB;
+  margin-top: 240px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.service__look {
+  display: flex;
+  justify-content: space-between;
+}
+.service__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  width: 471px;
+}
+.service__btn {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #070000;
+  background: #aac3e0;
+  border-radius: 14px;
+  padding: 26px 38px;
 }/*# sourceMappingURL=index.css.map */
