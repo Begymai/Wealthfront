@@ -250,6 +250,9 @@ a {
   padding-bottom: 240px;
 }
 
+.service {
+  margin-top: 240px;
+}
 .service__look {
   display: flex;
   justify-content: space-between;
@@ -269,4 +272,30 @@ a {
   background: #aac3e0;
   border-radius: 14px;
   padding: 26px 38px;
+}
+.service__name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: #211F54;
+  text-align: center;
+  padding-top: 24px;
+}
+.service__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  width: 312px;
+}
+.service__info {
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 16px;
+  width: 344px;
+  text-align: center;
+}
+.service__clean {
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
