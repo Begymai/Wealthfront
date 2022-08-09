@@ -8,4 +8,8 @@
     &__suptitle{
         @include font("Roboto", 400, 18,#6E7191);
     }
+    &__name{
+        @include font("Roboto", 400, 18, #211F54);
+    }
+    
 }
