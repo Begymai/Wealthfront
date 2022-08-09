@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1268px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 47px;
+  padding-bottom: 46px;
+}
+.header__content {
+  display: flex;
+}
+.header__name {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #211F54;
+}
+.header__menu {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #211F54;
+  margin-left: 22px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  margin-left: 42px;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+.header__btn {
+  display: flex;
+  align-items: center;
+  margin-left: 334px;
+}
+.header__button {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 17px 24px 19px 24px;
+}
+
+.hero__content {
+  display: flex;
+}
+.hero__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 68px;
+  color: #211F54;
+  line-height: 74px;
+  margin-top: 227px;
+  margin-bottom: 22px;
+}
+.hero__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+}
+.hero__suptitle {
+  display: flex;
+  margin-top: 33px;
+}
+.hero__button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.hero__info {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #6E7191;
+  text-transform: uppercase;
+}
+.hero__number {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #211F54;
+}
+.hero__form {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.blog {
+  margin-top: 239px;
+}
+.blog__content {
+  text-align: center;
+}
+.blog__title {
+  text-align: center;
+}
+.blog__info {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  margin-bottom: 21px;
+}
+.blog__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  width: 648px;
+  margin: 0 auto;
+}
+.blog__suptitle {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #211F54;
+  margin-top: 39px;
+}
+.blog__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  margin-top: 16px;
+  width: 412px;
+}
+.blog__post {
+  display: flex;
+  margin-top: 58px;
+}
+.blog__button {
+  margin-top: 57px;
+}
+.blog__button--blue {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.blog__button--white {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #070000;
+  text-align: center;
+  background: #aac3e0;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+
+.topic {
+  text-align: center;
+}
+.topic__text {
+  text-align: center;
+}
+.topic__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  width: 608px;
+  margin: 0 auto;
+}
+.topic__suptitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  width: 702px;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+.topic__info {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #6E7191;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.topic__number {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #211F54;
+}
+.topic__boxes {
+  display: flex;
+  align-items: center;
+  margin-right: 131px;
+  margin-top: 48px;
+}
+.topic__index {
+  margin-left: 16px;
+}
+.topic__job {
+  display: flex;
+  justify-content: center;
+}
+.topic__video {
+  margin-top: 40px;
+}
+.topic__content {
+  border-top: 1px solid #DCDDEB;
+  border-bottom: 1px solid #DCDDEB;
+  margin-top: 240px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.servises {
+  margin-top: 240px;
+  margin-bottom: 240px;
+}
+.servises__look {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
+}
+.servises__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  width: 471px;
+}
+.servises__btn {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #070000;
+  background-size: #aac3e0;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.servises__name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: #211F54;
+  text-align: center;
+  padding-top: 24px;
+}
+.servises__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  color: #6E7191;
+  width: 312px;
+  padding: 13px 38px 24px 38px;
+}
+.servises__info {
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 16px;
+  width: 344px;
+  text-align: center;
+}
+.servises__clean {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-top: 62px;
+}
+.servises__icon {
+  padding-top: 45px;
+}
+
+.virus {
+  margin-top: 240px;
+}
+.virus__content {
+  background: #211F54;
+  background-size: 676px;
+  border-radius: 24px;
+}
+.virus__box {
+  display: flex;
+  align-items: center;
+}
+.virus__sani {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+}
+.virus__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  width: 491px;
+  padding-bottom: 14px;
+}
+.virus__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 38px;
+}
+.virus__button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.virus__call {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+}
+.virus__number {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+.virus__form {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.virus__second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 72px;
+}
+.virus__suptitle {
+  display: flex;
+}
+
+.room__box {
+  display: flex;
+  align-items: center;
+}
+.room__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+}
+.room__suptitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #6E7191;
+}
+.room__name {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #211F54;
+}/*# sourceMappingURL=index.css.map */
