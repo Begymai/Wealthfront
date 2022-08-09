@@ -381,6 +381,9 @@ a {
   display: flex;
 }
 
+.room {
+  margin-top: 200px;
+}
 .room__box {
   display: flex;
   align-items: center;
@@ -390,16 +393,105 @@ a {
   font-weight: 700;
   font-size: 48px;
   color: #211F54;
+  width: 478px;
 }
 .room__suptitle {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   color: #6E7191;
+  width: 496px;
 }
 .room__name {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   color: #211F54;
+}
+.room__ticks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 108px;
+}
+.room__tisk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 108px;
+}
+.room__room {
+  display: flex;
+  justify-content: space-around;
+}
+.room__button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 26px 38px;
+}
+.room__make {
+  display: flex;
+  align-items: center;
+}
+.room__different {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  color: #211F54;
+  width: 346px;
+  margin-top: 224px;
+}
+.room__veniam {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #6E7191;
+  width: 496px;
+  margin-top: 16px;
+}
+.room__sed {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  color: #6E7191;
+  width: 465px;
+  margin-top: 15px;
+}
+.room__img {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.room__nb {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 54px;
+  color: #211F54;
+}
+.room__plus {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 54px;
+  color: #0075FF;
+}
+.room__depiction {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #6E7191;
+}
+.room__nbplus {
+  display: flex;
+}
+.room__numbers {
+  display: flex;
+}
+.room__grow {
+  margin-top: 25px;
+  margin-left: 54px;
+  margin-bottom: 48px;
 }/*# sourceMappingURL=index.css.map */
