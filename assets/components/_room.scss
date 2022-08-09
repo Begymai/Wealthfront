@@ -1,6 +1,7 @@
 .room{
     &__box{
         display: flex;
+        align-items: center;
     }
     &__title{
         @include font("Roboto", 700, 48,#211F54);
@@ -11,5 +12,5 @@
     &__name{
         @include font("Roboto", 400, 18, #211F54);
     }
-    
+
 }
