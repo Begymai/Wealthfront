@@ -2,6 +2,9 @@
     background: #F7F9FC;
     border-radius: 0px; 
     padding: 240px 110px;
+    &__contant{
+        display: flex;
+    }
     &__title{
         @include font("Roboto", 700, 48, #211F54);
         max-width: 481px;

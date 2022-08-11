@@ -644,6 +644,9 @@ textarea {
   padding: 240px 110px;
   /*регистрация*/
 }
+.registration__contant {
+  display: flex;
+}
 .registration__title {
   font-family: "Roboto";
   font-weight: 700px;
