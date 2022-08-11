@@ -8,13 +8,7 @@
     }
     &__title{
         @include font("Roboto", 700, 48, #211F54);
-        width: 471px;
-    }
-    &__btn{
-        @include font("Roboto", 700, 18, #070000);
-        background-size: #aac3e0;
-        border-radius: 14px;
-        padding: 26px 38px;
+       max-width: 471px;
     }
 
     &__name{
@@ -24,7 +18,7 @@
     }
     &__description{
         @include font("Roboto", 400, 21, #6E7191);
-        width: 312px;
+       max-width: 312px;
         padding: 13px 38px 24px 38px;
     }
     &__info{
@@ -32,7 +26,7 @@
         border: 1px solid #EFF0F6;
         box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
         border-radius: 16px;
-        width: 344px;
+       max-width: 344px;
         text-align: center;
     }
     &__clean{

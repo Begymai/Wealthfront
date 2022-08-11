@@ -15,14 +15,6 @@
         display: flex;
         margin-top: 33px;
     }
-    &__button{
-        @include font("Roboto", 700, 18, #FFFFFF);
-        text-align: center;
-        background: #0075FF;
-        border-radius: 14px;
-        padding: 26px 38px;
-        
-    }
     &__info{
         @include font("Roboto", 400, 16, #6E7191);        
         text-transform: uppercase;

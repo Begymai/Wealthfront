@@ -2,3 +2,28 @@
     max-width: 1268px;
     margin: 0 auto;
 }
+.button--blue{
+    @include font("Roboto", 400, 16, #FFFFFF);
+        text-align: center;
+        background: #0075FF;
+        border-radius: 14px;
+        padding: 17px 24px 19px 24px;
+        cursor: pointer;
+}
+.button--blue:hover{
+    background: #f9fafc;
+    color: #0075FF;
+}
+
+.button--white{
+    @include font("Roboto", 400, 16, #070707);
+    text-align: center;
+    background: #f9fafc;
+    border-radius: 14px;
+    padding: 17px 24px 19px 24px;
+    cursor: pointer;
+}
+.button--white:hover{
+    background: #d3197f;
+    color: #f9fafc;
+}

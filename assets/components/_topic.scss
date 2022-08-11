@@ -5,12 +5,12 @@
     }
     &__title{
         @include font("Roboto", 700, 48, #211F54);
-        width: 608px;
+       max-width: 608px;
         margin: 0 auto;
     }
     &__suptitle{
         @include font("Roboto", 400, 21, #6E7191);
-        width: 702px;
+       max-width: 702px;
         margin: 0 auto;
         margin-top: 13px;
     }

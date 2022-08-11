@@ -1,89 +1,77 @@
 .room{
     margin-top: 200px;
+    margin-bottom: 200px;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     &__box{
         display: flex;
-        align-items: center;
+        justify-content: space-between;
+    }
+    &__check{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__link{
+        margin-bottom: 30px;
     }
     &__title{
-        @include font("Roboto", 700, 48,#211F54);
-         width: 478px;
+        @include font("Roboto", 700, 48, #211F54);
+        margin-bottom: 19px;
+        max-width: 478px;
+
     }
-    &__suptitle{
-        @include font("Roboto", 400, 18,#6E7191);
-        width: 496px;
+    &__description{
+        @include font("Roboto", 400, 18, #6E7191);
+        margin-bottom: 16px;
+        max-width: 496px;
     }
     &__name{
-        @include font("Roboto", 700, 18, #211F54);
+        @include font("Roboto", 700, 18, #000);
     }
-    
-    &__ticks{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 108px;
-    }
-    &__tisk{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 108px;
-    }
-    &__room{
+    &__tick{
         display: flex;
         justify-content: space-around;
     }
-    &__button{
-        @include font("Roboto", 700, 18, #FFFFFF);
+    &__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__btn{
+        @include font("Roboto", 400, 16, #FFFFFF);
         text-align: center;
         background: #0075FF;
         border-radius: 14px;
-        padding: 26px 38px;
+        padding: 17px 24px 19px 24px;
     }
-
-    &__make{
+    &__suptitle{
+        @include font("Roboto", 400, 12, #6E7191);
+    }
+    /*следущий ряд*/
+    &__cube{
         display: flex;
-        align-items: center;
-    }
-    &__different{
-        @include font("Roboto", 700, 48, #211F54);
-        width: 346px;
         margin-top: 224px;
     }
-
-    &__veniam{
-        @include font("Roboto", 400, 18,#6E7191);
-        width: 496px;
-        margin-top: 16px;
+    &__wash{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-    &__sed{
-        @include font("Roboto", 400, 12,#6E7191);
-        width: 465px;
-        margin-top: 15px;
-    }
-    &__img{
-        margin-top: 200px;
-        margin-bottom: 200px;
-    }
-    &__nb{
+    &__number{
         @include font("Roboto", 700, 54, #211F54);
+    }
+    &__call{
+        @include font("Roboto", 700, 18, #6E7191);
     }
     &__plus{
         @include font("Roboto", 400, 54, #0075FF);
-    
     }
-    &__depiction{
-        @include font("Roboto", 700, 18,#6E7191);
-        
-    }
-    &__nbplus{
+    &__order{
         display: flex;
-    }
-    &__numbers{
-        display: flex;
-    }
-    &__grow{
-        margin-top: 25px;
-        margin-left: 54px;
-        margin-bottom: 48px;
+        justify-content: space-between;
     }
 }

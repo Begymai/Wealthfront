@@ -16,7 +16,7 @@
     }
     &__title{
         @include font("Roboto", 700, 48, #ffff);
-        width: 491px;
+       max-width: 491px;
         padding-bottom: 14px;
     }
     &__description{

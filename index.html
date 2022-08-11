@@ -16,7 +16,6 @@
       <div class="header__content">
         <div class="header__box">
           <img src="./assets/img/header/logo.svg" alt="logo" class="header__logo">
-
           <ul class="header__list">
             <li class="header__menu">
               <a href="" class="header__name">
@@ -59,12 +58,46 @@
             </li>
 
             <li class="header__menu">
-              <button class="header__button">
+              <button class="button--blue">
                 Get a free quote
               </button>
             </li>
           </ul>
         </div>
+        <div class="burger active">
+          <div class="burger__menu">
+              <div class="burger__line"></div>
+              <div class="burger__line"></div>
+              <div class="burger__line"></div>
+              <div class="burger__close">
+                  X
+              </div>
+          </div>
+
+          <ul class="burger__list">
+              <li class="header__item">
+                  <a href="#" class="header__link">Home</a>
+              </li>
+              <li class="header__item">
+                  <a href="#" class="header__link">About</a>
+              </li>
+              <li class="header__item">
+                  <a href="#" class="header__link">
+                    Services
+                  </a>
+              </li>
+              <li class="header__item">
+                  <a href="#" class="header__link">
+                    Pages
+                  </a>
+              </li>
+              <li class="header__item">
+                  <a href="#" class="header__link">
+                    Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
       </div>
     </div>
   </header>
@@ -77,7 +110,7 @@
             neque pharetra nulla ornare sed facilisis senectus
             dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</p>
           <div class="hero__suptitle">
-            <button class="hero__button">
+            <button class="button--blue">
               Get a free quote
             </button>
             <img src="./assets/img/hero/IMAGE (2).png" alt="phone" class="hero__icon">
@@ -121,10 +154,10 @@
           </div>
         </div>
         <div class="blog__button">
-          <button class="blog__button--blue">
+          <button class="button--blue">
             Get a free quote
           </button>
-          <button class="blog__button--white">
+          <button class="button--white">
             Explore services
           </button>
         </div>
@@ -142,7 +175,7 @@
         <div class="topic__job">
         <div class="topic__boxes">
           <img src="./assets/img/topic/topic-1.svg" alt="photo" class="topic__icon">
-          <div class="topic__index">
+        <div class="topic__index">
           <h3 class="topic__info">clients</h3>
           <p class="topic__number">3,480+</p>
         </div>
@@ -173,7 +206,7 @@
         <div class="servises__look">
           <h2 class="servises__title">Take a look at our professional servisess</h2>
           <div class="servises__button">
-            <button class="servises__btn">Explore servisess</button>
+            <button class="button--white">Explore servisess</button>
           </div>          
         </div>
         <div class="servises__clean">
@@ -212,7 +245,7 @@
             <p class="virus__description">We follow guidelines to keep you safe from the COVID-19 virus</p>
           </div>
           <div class="virus__suptitle">
-            <button class="virus__button">
+            <button class="button--blue">
               Get a free quote
             </button>
             <img src="./assets/img/virus/phone.svg" alt="phone" class="hero__icon">
@@ -230,94 +263,88 @@
   <div class="container">
     <div class="room__content">
       <div class="room__box">
-        <img src="./assets/img/room/room.png" alt="room" class="room__icon">
-        <div class="room__info">
-          <h2 class="room__title">We cover all areas of your room or office</h2>
-          <p class="room__suptitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-             ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <div class="room__room">
-             <div class="room__ticks">
-                <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-                <div class="room__sector">
-                <h3 class="room__name">Bathrooms</h3>
-               </div>
-                <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-                <div class="room__sector">
-                <h3 class="room__name">Kitchens</h3>
-                </div>
-                <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-                <div class="room__sector">
-                <h3 class="room__name">Living Rooms</h3>
-                </div>
-                <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-                <div class="room__sector">
-                <h3 class="room__name">Carpets</h3>
-                </div>
-              </div>
-            <div class="room__tisk">
-              <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-              <div class="room__sector">
-                <h3 class="room__name">Bedrooms</h3>
-              </div>
-              <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-              <div class="room__sector">
-                <h3 class="room__name">Offices</h3>
-              </div>
-              <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-              <div class="room__sector">
-                <h3 class="room__name">Businesses</h3>
-              </div>
-              <img src="./assets/img/room/tick.svg" alt="tick" class="room__icon"/>
-              <div class="room__sector">
-                <h3 class="room__name">Windows</h3>
-              </div>
-            </div>
+        <img src="./assets/img/room/room.png" alt="photo" class="room__icon">
+        <div class="room__check">
+        <h2 class="room__title">We cover all areas of your home or office</h2>
+        <p class="room__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div class="room__tick">
+            <ul class="room__list">
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Bathrooms</a>
+              </li>
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Kitchens</a>
+              </li>
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Living Rooms</a>
+              </li>
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Carpets</a>
+              </li>
+            </ul>
+            <ul class="room__mark">
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Bedrooms</a>
+              </li>
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Offices</a>
+              </li>
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Businesses</a>
+              </li>
+              <li class="room__link">
+                <img src="./assets/img/room/tick.svg" alt="tick" class="room__img">
+                <a href="ff" class="room__name">Windows</a>
+              </li>
+            </ul>
           </div>
-          <div class="room__btn">
-            <button class="room__button">
-              Get a free quote
-            </button>
+          <div class="room__button">
+          <button class="button--blue">Get a free quote</button>
           </div>
         </div>
       </div>
 
-      <div class="room__make">
-        <div class="room__chamber">
-        <div class="room__dolar">
-          <h2 class="room__different">What makes us different?</h2>
-          <h3 class="room__veniam">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam.</h3>
-          <p class="room__sed">Sed ut perspiciatis unde omnis iste natus error sit atem accusantium 
-            doloremque laudantiu sed ut.</p>
-        </div>
-        <div class="room__numbers">
-          <div class="room__grow">
-          <div class="room__nbplus">
-          <p class="room__nb">10</p>
-          <p class="room__plus">+</p>
-          </div>
-          <p class="room__depiction">Years</p></div>
-          <div class="room__grow">
-          <div class="room__nbplus">
-            <p class="room__nb">5k</p>
-            <p class="room__plus">+</p>
-            </div>
-            <p class="room__depiction">Clients</p></div>
-            <div class="room__grow">
-            <div class="room__nbplus">
-              <p class="room__nb">20k</p>
+      <div class="room__cube">
+        <div class="room__wash">
+          <h2 class="room__title">What makes us different?</h2>
+          <p class="room__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p class="room__suptitle">Sed ut perspiciatis unde omnis iste natus error sit 
+            atem accusantium doloremque laudantiu sed ut.</p>
+          <div class="room__client">
+            <ul class="room__order">
+              <li class="room__numberring">
+                <p class="room__number">10</p>
+                <a href="ff" class="room__call">Years</a>
+              </li>
               <p class="room__plus">+</p>
-              </div>
-              <p class="room__depiction">Jobs done</p></div>
+              <li class="room__numberring">
+                <p class="room__number">5k</p>
+                <a href="ff" class="room__call">Clients</a>
+              </li>
+              <p class="room__plus">+</p>
+              <li class="room__numberring">
+                <p class="room__number">20k</p>
+                <a href="ff" class="room__call">Jobs done</a>
+              </li>
+              <p class="room__plus">+</p>
+            </ul>           
+          </div>
+          <div class="room__button">
+            <button class="button--blue">Get a free quote</button>
+          </div>
         </div>
-        <div class="room__btn">
-          <button class="room__button">
-            Get a free quote
-          </button>
-        </div>
-        </div>
-        <img src="./assets/img/room/room-2.png" alt="room" class="room__img">
+          <img src="./assets/img/room/room-2.png" alt="photo" class="room__icon">
       </div>
+      
     </div>
   </div>
 </section>
@@ -331,8 +358,8 @@
          massa mauris lectus.</p>
         </div>
         <div class="artic__buttons">
-        <button class="artic__button--blue">Get a free quote</button>
-        <button class="artic__button--white">Browse articles</button>
+        <button class="button--blue">Get a free quote</button>
+        <button class="button--white">Browse articles</button>
         </div>
     </div>
 
@@ -365,9 +392,17 @@
           </div>
           </div>
         </div>
-      </div>
-      
+      </div>      
     </div>
+    </div>
+  </div>
+</section>
+<section class="registration">
+  <div class="container">
+    <div class="registration__contant">
+      <div class="registration__box">
+        
+      </div>
     </div>
   </div>
 </section>

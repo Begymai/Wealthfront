@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   font-family: "Roboto";
@@ -24,6 +25,40 @@ a {
 .container {
   max-width: 1268px;
   margin: 0 auto;
+}
+
+.button--blue {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #0075FF;
+  border-radius: 14px;
+  padding: 17px 24px 19px 24px;
+  cursor: pointer;
+}
+
+.button--blue:hover {
+  background: #f9fafc;
+  color: #0075FF;
+}
+
+.button--white {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #070707;
+  text-align: center;
+  background: #f9fafc;
+  border-radius: 14px;
+  padding: 17px 24px 19px 24px;
+  cursor: pointer;
+}
+
+.button--white:hover {
+  background: #d3197f;
+  color: #f9fafc;
 }
 
 .header {
@@ -60,17 +95,57 @@ a {
   align-items: center;
   margin-left: 334px;
 }
-.header__button {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  color: #FFFFFF;
+
+.burger {
+  display: none;
+}
+.burger__line {
+  width: 30px;
+  height: 5px;
+  background: #000;
+  margin: 3px 0;
+}
+.burger__menu {
+  position: absolute;
+  right: 40px;
+}
+.burger__list {
+  padding: 40px 0;
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
-  background: #0075FF;
-  border-radius: 14px;
-  padding: 17px 24px 19px 24px;
+  background: white;
+  display: none;
+}
+.burger__close {
+  display: none;
+}
+.burger.active .burger__close {
+  font-size: 25px;
+  font-weight: 900;
+  display: block;
+}
+.burger.active .burger__list {
+  display: flex;
+}
+.burger.active .burger__line {
+  display: none;
 }
 
+@media screen and (max-width: 640px) {
+  .header__label {
+    display: none;
+  }
+  .header__list {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
 .hero__content {
   display: flex;
 }
@@ -92,16 +167,6 @@ a {
 .hero__suptitle {
   display: flex;
   margin-top: 33px;
-}
-.hero__button {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
-  color: #FFFFFF;
-  text-align: center;
-  background: #0075FF;
-  border-radius: 14px;
-  padding: 26px 38px;
 }
 .hero__info {
   font-family: "Roboto";
@@ -143,7 +208,7 @@ a {
   font-weight: 400;
   font-size: 21px;
   color: #6E7191;
-  width: 648px;
+  max-width: 648px;
   margin: 0 auto;
 }
 .blog__suptitle {
@@ -159,7 +224,7 @@ a {
   font-size: 21px;
   color: #6E7191;
   margin-top: 16px;
-  width: 412px;
+  max-width: 412px;
 }
 .blog__post {
   display: flex;
@@ -167,26 +232,6 @@ a {
 }
 .blog__button {
   margin-top: 57px;
-}
-.blog__button--blue {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
-  color: #FFFFFF;
-  text-align: center;
-  background: #0075FF;
-  border-radius: 14px;
-  padding: 26px 38px;
-}
-.blog__button--white {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
-  color: #070000;
-  text-align: center;
-  background: #aac3e0;
-  border-radius: 14px;
-  padding: 26px 38px;
 }
 
 .topic {
@@ -200,7 +245,7 @@ a {
   font-weight: 700;
   font-size: 48px;
   color: #211F54;
-  width: 608px;
+  max-width: 608px;
   margin: 0 auto;
 }
 .topic__suptitle {
@@ -208,7 +253,7 @@ a {
   font-weight: 400;
   font-size: 21px;
   color: #6E7191;
-  width: 702px;
+  max-width: 702px;
   margin: 0 auto;
   margin-top: 13px;
 }
@@ -264,16 +309,7 @@ a {
   font-weight: 700;
   font-size: 48px;
   color: #211F54;
-  width: 471px;
-}
-.servises__btn {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
-  color: #070000;
-  background-size: #aac3e0;
-  border-radius: 14px;
-  padding: 26px 38px;
+  max-width: 471px;
 }
 .servises__name {
   font-family: "Roboto";
@@ -288,7 +324,7 @@ a {
   font-weight: 400;
   font-size: 21px;
   color: #6E7191;
-  width: 312px;
+  max-width: 312px;
   padding: 13px 38px 24px 38px;
 }
 .servises__info {
@@ -296,7 +332,7 @@ a {
   border: 1px solid #EFF0F6;
   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
   border-radius: 16px;
-  width: 344px;
+  max-width: 344px;
   text-align: center;
 }
 .servises__clean {
@@ -334,7 +370,7 @@ a {
   font-weight: 700;
   font-size: 48px;
   color: white;
-  width: 491px;
+  max-width: 491px;
   padding-bottom: 14px;
 }
 .virus__description {
@@ -383,94 +419,93 @@ a {
 
 .room {
   margin-top: 200px;
+  margin-bottom: 200px;
+  /*следущий ряд*/
+}
+.room__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .room__box {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+.room__check {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.room__link {
+  margin-bottom: 30px;
 }
 .room__title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 48px;
   color: #211F54;
-  width: 478px;
+  margin-bottom: 19px;
+  max-width: 478px;
 }
-.room__suptitle {
+.room__description {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   color: #6E7191;
-  width: 496px;
+  margin-bottom: 16px;
+  max-width: 496px;
 }
 .room__name {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
-  color: #211F54;
+  color: #000;
 }
-.room__ticks {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 108px;
-}
-.room__tisk {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 108px;
-}
-.room__room {
+.room__tick {
   display: flex;
   justify-content: space-around;
 }
-.room__button {
+.room__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.room__btn {
   font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   color: #FFFFFF;
   text-align: center;
   background: #0075FF;
   border-radius: 14px;
-  padding: 26px 38px;
+  padding: 17px 24px 19px 24px;
 }
-.room__make {
-  display: flex;
-  align-items: center;
-}
-.room__different {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 48px;
-  color: #211F54;
-  width: 346px;
-  margin-top: 224px;
-}
-.room__veniam {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 18px;
-  color: #6E7191;
-  width: 496px;
-  margin-top: 16px;
-}
-.room__sed {
+.room__suptitle {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
   color: #6E7191;
-  width: 465px;
-  margin-top: 15px;
 }
-.room__img {
-  margin-top: 200px;
-  margin-bottom: 200px;
+.room__cube {
+  display: flex;
+  margin-top: 224px;
 }
-.room__nb {
+.room__wash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.room__number {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 54px;
   color: #211F54;
+}
+.room__call {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #6E7191;
 }
 .room__plus {
   font-family: "Roboto";
@@ -478,22 +513,9 @@ a {
   font-size: 54px;
   color: #0075FF;
 }
-.room__depiction {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
-  color: #6E7191;
-}
-.room__nbplus {
+.room__order {
   display: flex;
-}
-.room__numbers {
-  display: flex;
-}
-.room__grow {
-  margin-top: 25px;
-  margin-left: 54px;
-  margin-bottom: 48px;
+  justify-content: space-between;
 }
 
 .artic {
@@ -515,7 +537,7 @@ a {
   font-weight: 400;
   font-size: 21px;
   color: #6E7191;
-  width: 474px;
+  max-width: 474px;
   margin-top: 9px;
 }
 .artic__button--blue {
@@ -547,7 +569,7 @@ a {
   border: 1px solid #EFF0F6;
   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
   border-radius: 24px;
-  width: 536px;
+  max-width: 536px;
   position: relative;
   bottom: 68px;
   left: 30px;
@@ -557,7 +579,7 @@ a {
   font-weight: 700;
   font-size: 24px;
   color: #211F54;
-  width: 407px;
+  max-width: 407px;
   margin-top: 52px;
   margin-left: 27px;
 }
@@ -566,13 +588,13 @@ a {
   font-weight: 400;
   font-size: 21px;
   color: #6E7191;
-  width: 434px;
+  max-width: 434px;
   margin-top: 17px;
   margin-left: 27px;
 }
 .artic__number {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   color: #211F54;
 }
