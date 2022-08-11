@@ -9,6 +9,7 @@
         border-radius: 14px;
         padding: 17px 24px 19px 24px;
         cursor: pointer;
+        border: none;
 }
 .button--blue:hover{
     background: #f9fafc;
@@ -18,12 +19,39 @@
 .button--white{
     @include font("Roboto", 400, 16, #070707);
     text-align: center;
-    background: #f9fafc;
+    background: #FFFFFF;
     border-radius: 14px;
     padding: 17px 24px 19px 24px;
+    border: 1px solid #EFF0F6;
     cursor: pointer;
 }
 .button--white:hover{
     background: #d3197f;
-    color: #f9fafc;
+    color: #FFFFFF;
 }
+.block{   
+    margin-top: 59px;
+    margin-bottom: 59px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+    border-radius: 16px;        
+}
+input{
+    height: 45px;   
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+    border-radius: 16px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    font-size: 16px;
+    resize: none;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+    border-radius: 16px;
+  }

@@ -14,10 +14,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
 }
 
-button {
-  border: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -29,7 +25,7 @@ a {
 
 .button--blue {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: #FFFFFF;
   text-align: center;
@@ -37,6 +33,7 @@ a {
   border-radius: 14px;
   padding: 17px 24px 19px 24px;
   cursor: pointer;
+  border: none;
 }
 
 .button--blue:hover {
@@ -46,19 +43,49 @@ a {
 
 .button--white {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: #070707;
   text-align: center;
-  background: #f9fafc;
+  background: #FFFFFF;
   border-radius: 14px;
   padding: 17px 24px 19px 24px;
+  border: 1px solid #EFF0F6;
   cursor: pointer;
 }
 
 .button--white:hover {
   background: #d3197f;
-  color: #f9fafc;
+  color: #FFFFFF;
+}
+
+.block {
+  margin-top: 59px;
+  margin-bottom: 59px;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 16px;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+  border-radius: 16px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  font-size: 16px;
+  resize: none;
+  border: 1px solid #EFF0F6;
+  box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+  border-radius: 16px;
 }
 
 .header {
@@ -70,13 +97,13 @@ a {
 }
 .header__name {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 18px;
   color: #211F54;
 }
 .header__menu {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 18px;
   color: #211F54;
   margin-left: 22px;
@@ -151,7 +178,7 @@ a {
 }
 .hero__title {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 68px;
   color: #211F54;
   line-height: 74px;
@@ -160,7 +187,7 @@ a {
 }
 .hero__description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
 }
@@ -170,14 +197,14 @@ a {
 }
 .hero__info {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: #6E7191;
   text-transform: uppercase;
 }
 .hero__number {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 28px;
   color: #211F54;
 }
@@ -198,14 +225,14 @@ a {
 }
 .blog__info {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 48px;
   color: #211F54;
   margin-bottom: 21px;
 }
 .blog__description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
   max-width: 648px;
@@ -213,14 +240,14 @@ a {
 }
 .blog__suptitle {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 28px;
   color: #211F54;
   margin-top: 39px;
 }
 .blog__text {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
   margin-top: 16px;
@@ -242,7 +269,7 @@ a {
 }
 .topic__title {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 48px;
   color: #211F54;
   max-width: 608px;
@@ -250,7 +277,7 @@ a {
 }
 .topic__suptitle {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
   max-width: 702px;
@@ -259,7 +286,7 @@ a {
 }
 .topic__info {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: #6E7191;
   text-transform: uppercase;
@@ -267,7 +294,7 @@ a {
 }
 .topic__number {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 28px;
   color: #211F54;
 }
@@ -306,14 +333,14 @@ a {
 }
 .servises__title {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 48px;
   color: #211F54;
   max-width: 471px;
 }
 .servises__name {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 24px;
   color: #211F54;
   text-align: center;
@@ -321,7 +348,7 @@ a {
 }
 .servises__description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
   max-width: 312px;
@@ -359,7 +386,7 @@ a {
 }
 .virus__sani {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 16px;
   color: white;
   text-transform: uppercase;
@@ -367,7 +394,7 @@ a {
 }
 .virus__title {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 48px;
   color: white;
   max-width: 491px;
@@ -375,14 +402,14 @@ a {
 }
 .virus__description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: white;
   padding-bottom: 38px;
 }
 .virus__button {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   color: #FFFFFF;
   text-align: center;
@@ -392,14 +419,14 @@ a {
 }
 .virus__call {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: white;
   text-transform: uppercase;
 }
 .virus__number {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 28px;
   color: white;
 }
@@ -441,7 +468,7 @@ a {
 }
 .room__title {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 48px;
   color: #211F54;
   margin-bottom: 19px;
@@ -449,7 +476,7 @@ a {
 }
 .room__description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 18px;
   color: #6E7191;
   margin-bottom: 16px;
@@ -457,7 +484,7 @@ a {
 }
 .room__name {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   color: #000;
 }
@@ -472,7 +499,7 @@ a {
 }
 .room__btn {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   color: #FFFFFF;
   text-align: center;
@@ -482,7 +509,7 @@ a {
 }
 .room__suptitle {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 12px;
   color: #6E7191;
 }
@@ -497,19 +524,19 @@ a {
 }
 .room__number {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 54px;
   color: #211F54;
 }
 .room__call {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   color: #6E7191;
 }
 .room__plus {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 54px;
   color: #0075FF;
 }
@@ -528,13 +555,13 @@ a {
 }
 .artic__title {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 48px;
   color: #211F54;
 }
 .artic__suptitle {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
   max-width: 474px;
@@ -542,7 +569,7 @@ a {
 }
 .artic__button--blue {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   color: #FFFFFF;
   text-align: center;
@@ -553,7 +580,7 @@ a {
 }
 .artic__button--white {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   color: black;
   text-align: center;
@@ -576,7 +603,7 @@ a {
 }
 .artic__name {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 24px;
   color: #211F54;
   max-width: 407px;
@@ -585,7 +612,7 @@ a {
 }
 .artic__description {
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 21px;
   color: #6E7191;
   max-width: 434px;
@@ -594,7 +621,7 @@ a {
 }
 .artic__number {
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   color: #211F54;
 }
@@ -609,4 +636,144 @@ a {
 .artic__second {
   display: flex;
   justify-content: space-between;
+}
+
+.registration {
+  background: #F7F9FC;
+  border-radius: 0px;
+  padding: 240px 110px;
+  /*регистрация*/
+}
+.registration__title {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 48px;
+  color: #211F54;
+  max-width: 481px;
+}
+.registration__suptitle {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 21px;
+  color: #6E7191;
+  max-width: 481px;
+  margin-bottom: 10px;
+}
+.registration__desk {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 28px;
+  color: #211F54;
+}
+.registration__info {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 16px;
+  color: #6E7191;
+  text-transform: uppercase;
+}
+.registration__number {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 28px;
+  color: #211F54;
+}
+.registration__form {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.registration__fields {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.registration__devider {
+  display: flex;
+}
+.registration__again {
+  height: 908px;
+  max-width: 673px;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 16px;
+}
+.registration__field {
+  margin-bottom: 74px;
+  margin-left: 33px;
+}
+
+.footer {
+  margin-top: 163px;
+  margin-bottom: 38px;
+}
+.footer__title {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 28px;
+  color: #211F54;
+  width: 256px;
+  margin-bottom: 7px;
+}
+.footer__suptitle {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 18px;
+  color: #211F54;
+  max-width: 304px;
+  margin-bottom: 34px;
+}
+.footer__boxy {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 18px;
+  color: #EDF5FF;
+  background: #EDF5FF;
+  border-radius: 8px;
+  padding: 8px;
+}
+.footer__boxes {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__number {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 28px;
+  color: #0075FF;
+  margin-bottom: 6px;
+}
+.footer__order {
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 20px;
+  color: #211F54;
+  margin-bottom: 28px;
+}
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__finish {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__end {
+  display: flex;
+  align-items: center;
+}
+.footer__name {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 18px;
+  color: #6E7191;
+}
+.footer__bye {
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 18px;
+  color: #0075FF;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,51 @@
+.footer{
+    margin-top: 163px;
+    margin-bottom: 38px;
+    &__title{
+        @include font("Roboto", 700, 28, #211F54);
+        width: 256px;
+        margin-bottom: 7px;
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 18, #211F54);
+        max-width: 304px;  
+        margin-bottom: 34px;      
+    }
+    &__boxy{
+        @include font("Roboto", 400, 18, #EDF5FF);
+        background: #EDF5FF;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    &__boxes{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__number{
+        @include font("Roboto", 700, 28, #0075FF);
+        margin-bottom: 6px;
+    }
+    &__order{
+        @include font("Roboto", 700, 20, #211F54);
+        margin-bottom: 28px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__finish{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__end{
+        display: flex;
+        align-items: center;
+    }
+    &__name{
+        @include font("Roboto", 400, 18, #6E7191);
+    }
+    &__bye{
+        @include font("Roboto", 400, 18, #0075FF);
+        text-decoration-line: underline;
+    }
+}

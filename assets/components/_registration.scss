@@ -1,0 +1,51 @@
+.registration{
+    background: #F7F9FC;
+    border-radius: 0px; 
+    padding: 240px 110px;
+    &__title{
+        @include font("Roboto", 700, 48, #211F54);
+        max-width: 481px;
+    }
+    &__suptitle{
+        @include font("Roboto", 400, 21, #6E7191);
+        max-width: 481px;
+        margin-bottom: 10px;
+    }
+    &__desk{
+        @include font("Roboto", 700, 28, #211F54);
+    }
+    &__info{
+        @include font("Roboto", 400, 16, #6E7191);        
+        text-transform: uppercase;
+    }
+    &__number{
+        @include font("Roboto", 700, 28, #211F54);
+    }
+    /*регистрация*/
+    &__form{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    &__fields{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    &__devider{
+        display: flex;
+    }
+    &__again{
+        height: 908px;
+        max-width: 673px;
+        background: #FFFFFF;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+        border-radius: 16px;
+    }
+    &__field{
+        margin-bottom: 74px;
+        margin-left: 33px;
+    }
+    
+}
