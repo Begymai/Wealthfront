@@ -30,7 +30,7 @@
         max-width: 496px;
     }
     &__name{
-        @include font("Roboto", 700, 18, #000);
+        @include font("Roboto", 400, 18, #000);
     }
     &__tick{
         display: flex;
@@ -41,12 +41,8 @@
         flex-direction: column;
         justify-content: space-between;
     }
-    &__btn{
-        @include font("Roboto", 400, 16, #FFFFFF);
-        text-align: center;
-        background: #0075FF;
-        border-radius: 14px;
-        padding: 17px 24px 19px 24px;
+    &__phone{
+        display: flex;
     }
     &__suptitle{
         @include font("Roboto", 400, 12, #6E7191);

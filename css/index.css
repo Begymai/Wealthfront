@@ -484,7 +484,7 @@ textarea {
 }
 .room__name {
   font-family: "Roboto";
-  font-weight: 700px;
+  font-weight: 400px;
   font-size: 18px;
   color: #000;
 }
@@ -497,15 +497,8 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
 }
-.room__btn {
-  font-family: "Roboto";
-  font-weight: 400px;
-  font-size: 16px;
-  color: #FFFFFF;
-  text-align: center;
-  background: #0075FF;
-  border-radius: 14px;
-  padding: 17px 24px 19px 24px;
+.room__phone {
+  display: flex;
 }
 .room__suptitle {
   font-family: "Roboto";
